@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  Nama          : Utami Setyaningtyas
+</br>
+  NPM           : 4520210071
+</br>
+  Mata Kuliah   : Desain Web-A
+</br>
+</br>
+</head>
+<body bgcolor="lime">
+   <html>
+    <head>
+        <h2 align="center"><i><u>USER FORM </u></i></font></h2>
+        <thead>
+</head>
+<body style="background-color:lime">
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <fieldset>
+        <legend>User Form</legend>
+        <table>
+ <form>
+  <table align="Center">
+   <tr>
+    <td>Nama :</td>
+    <td><input  type="text" name=" nama "></td>
+   </tr>
+   <tr>
+       <td>Alamat</td>
+       <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password"></td>
+   </tr>
+   <tr>
+    <td>Jenis Kelamin :</td>
+    <td>
+        <input type="radio" name="gender" value="male"/>male
+        <input type="radio" name="gender" value="female"/>female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email"></td>
+    <tr>
+        <td> Nomor Telepon: </td>
+        <td>
+        <input type = "Text"  name = " Nomor Telepon" >
+        </td>
+
+    </tr>
+        <td>
+            D.O.B 
+        </td> 
+        <td>
+            <input type="date" size="30" name="ttl"/>
+        </td>
+    </tr>
+    <tr>
+        <td>SELECT GAMES </td>
+         <td>
+        <input type="checkbox" name="SELECT GAMES"  value="Hockey">Hockey
+        <input type="checkbox" name="SELECT GAMES"  value="Football">Football
+        <input type="checkbox" name="SELECT GAMES"  value="Cricket">Cricket
+        <input type="checkbox" name="SELECT GAMES"  value="VolleyBall">VolleyBall
+        <tr>
+            <td>MARIRAL STATUS </td>
+            <td><input type="radio" name="MARIRAL STATUS" value="Married">Married
+            <input type="radio" name="MARIRAL STATUS" value="Unmarried">Unmarried
+            </td>
+        <tr>
+    <tr>
+        <td>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            <input type="checkbox" name="remember" value="remember" /> I accept this agrement  
+        </td>
+    </tr>
+  </table>
+</fieldset>
+ </form>
+</body>
+</html>
